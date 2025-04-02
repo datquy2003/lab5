@@ -1,0 +1,97 @@
+.main {
+    background-color: white;
+    padding: 20px;
+}
+
+nav {
+    background-color: #ccc;
+    padding: 4px 0;
+    padding-left: 5px;
+}
+nav ul {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    font-size: 30px;
+}
+nav ul li:hover {
+    background-color: #f1c40f;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 5px;
+   
+}
+
+.header strong {
+    font-size: 30px;
+}
+.main {
+    background-color: gray;
+}
+.hotnews {
+    display: flex;
+    gap: 10px;
+}
+.imgnews {
+    flex: 1;
+    
+}
+.imgnews img {
+    object-fit: cover;
+    width: 100%;
+    
+}
+.textnews {
+    flex: 1;
+    margin-left: 20px;
+}
+.textnews .title {
+    background-color: yellow;
+    font-size: 20px;
+    padding: 10px 5px;
+    border-radius: 4px;
+}
+.textnews .content{
+    flex: 1;
+    color: white;
+    padding-left: 5px;
+    padding-bottom: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1)
+}
+.frmcomment form label {
+    color: white;
+    font-size: 20px;
+}
+
+.news {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    display: flex;
+    gap: 20px;
+
+}
+.item .title {
+    background-color: yellow;
+    padding: 5px 5px;
+    font-size: 20px;
+}
+.item img {
+    object-fit: cover;
+    width: 100%;
+   
+}
+.item {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    border-radius: 10px; 
+    overflow: hidden; 
+    background-color: #a1a1a1;
+}
+
+.item .forcontent {
+    text-align: justify;
+    font-size: 15px;
+}
